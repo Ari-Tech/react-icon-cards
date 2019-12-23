@@ -1,0 +1,31 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #F55926;
+}
+.App{
+}
+.App-header{
+  background: #000;
+  .text-header{
+    color: #efefef;
+    margin-left:20px;
+  }
+}
+.App-logo{
+  width: 40px;
+  height: 40px;
+}
+
+.left-menu{
+  width: 200px;
+  height: calc(100vh - 45px);
+  background: #F55926;
+  color: #efefef;
+}
+.main-container{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background: #efefef;
+  border:1px solid #F55926;
+  margin-top: 2px;
+}
